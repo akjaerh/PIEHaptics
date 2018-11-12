@@ -6,7 +6,7 @@ We want to explore what it does to relations over a distance, when it becomes po
 ## How to create an internet enabled haptic sensoric sender and receiver
 
 ### 1. Preparing the necessary parts and pieces
-### Parts:
+#### Parts:
 * WEMOS D1 Mini (https://wiki.wemos.cc/products:d1:d1_mini) or similar ESP8266 microcontroller 
 * Motor Shield (https://wiki.wemos.cc/products:d1_mini_shields:motor_shield) 
 * Button
@@ -18,6 +18,9 @@ We want to explore what it does to relations over a distance, when it becomes po
 
 ![Parts](images/parts.jpg)
 
+#### Fritzing diagram
+We aim to create a solution based on the Fritzing diagram below
+![Fritzing diagram](images/vibration.png)
 
 
 ### 2. Soldering the pins and connecting the motor shield
