@@ -6,16 +6,19 @@ We want to explore what it does to relations over a distance, when it becomes po
 ## How to create an internet enabled haptic sensoric sender and receiver
 
 ### 1. Preparing the necessary parts and pieces
-
-
-* WeMos D1 Mini or Wroom-02 with battery
-* Motor Shield
+### Parts:
+* WEMOS D1 Mini (https://wiki.wemos.cc/products:d1:d1_mini) or similar ESP8266 microcontroller 
+* Motor Shield (https://wiki.wemos.cc/products:d1_mini_shields:motor_shield) 
 * Button
 * Motor of your choice (our faviourite is the vibration motor)
 * Wires
 #### Tools:
 * Soldering iron and solder
 * Laser cutter
+
+![Parts](images/parts.jpg)
+
+
 
 ### 2. Soldering the pins and connecting the motor shield
 
