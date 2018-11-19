@@ -18,8 +18,6 @@ In this iteration we wanted to make the haptic sensations more dynamic. We did t
 
 Additionally you will be able to find the .SVG-file for lasercutting the case for the device. This file is named "HAPTICCASE-3MM.svg"
 
-### 1.
-
 ![1. experiment: Good vibrations multiband](images/good%20vibrations%20multi%20band.jpg)
 
 ## How to create an internet enabled haptic sensoric sender and receiver
