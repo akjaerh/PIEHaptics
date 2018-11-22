@@ -18,7 +18,7 @@ This iteration primarily focused on subscribing to a MQTT-feed, and when change 
 
 ### 3. Iteration
 In this iteration we wanted to make the haptic sensations more dynamic. We did this by shifting from the approach using a fixed value of active motor time, to an approach where the lenght a button press on the <b>1. device</b> would determine the length the motor time on the <b>2. device</b>.
-This code is programmed for device 1. Remember to change the variables for 'id' and 'idOther' for the 2nd device.
+This code is programmed for device 1. Remember to change the variables for 'id' and 'idOther' for the 2. device.
 Remember also to type in your own Wifi name and password.
 The code is made for a device which uses motor B. If you use motor A or both, then remember to uncomment them in the code.
 
