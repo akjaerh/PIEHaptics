@@ -18,6 +18,9 @@ This iteration primarily focused on subscribing to a MQTT-feed, and when change 
 
 ### 3. Iteration
 In this iteration we wanted to make the haptic sensations more dynamic. We did this by shifting from the approach using a fixed value of active motor time, to an approach where the lenght a button press on the <b>1. device</b> would determine the length the motor time on the <b>2. device</b>.
+This code is programmed for device 1. Remember to change the variables for 'id' and 'idOther' for the 2nd device.
+Remember also to type in your own Wifi name and password.
+The code is made for a device which uses motor B. If you use motor A or both, then remember to uncomment them in the code.
 
 Additionally you will be able to find the .SVG-file for lasercutting the case for the device. This file is named "HAPTICCASE-3MM.svg"
 
@@ -30,7 +33,7 @@ Additionally you will be able to find the .SVG-file for lasercutting the case fo
 * WEMOS D1 Mini (https://wiki.wemos.cc/products:d1:d1_mini) or similar ESP8266 microcontroller 
 * Motor Shield (https://wiki.wemos.cc/products:d1_mini_shields:motor_shield) 
 * Button
-* Motor of your choice (our faviourite is the vibration motor)
+* Motor of your choice (our favourite is the vibration motor)
 * Wires
 #### Tools:
 * Soldering iron and solder
@@ -39,7 +42,7 @@ Additionally you will be able to find the .SVG-file for lasercutting the case fo
 ![Parts](images/parts.jpg)
 
 #### Fritzing diagram
-We aim to create a solution based on the Fritzing diagram below
+We have created a solution based on the Fritzing diagram below
 ![Fritzing diagram](images/vibration.png)
 
 
@@ -50,4 +53,4 @@ We aim to create a solution based on the Fritzing diagram below
 ### 4. Soldering on the button
 
 ### 5. Putting it all together
-a
+
