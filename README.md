@@ -3,7 +3,7 @@
 Vision:
 We want to explore what it does to relations over a distance, when it becomes possible, and easily available, to induce physical sensations remotely.
 
-Our approach is to create two identical devices that are connected to each other over the internet. A button and a motor are attached to the devices where a button click on the <b>1. device</b> is able to deliver a haptic sensation on the <b>2. device</b> and vice verca.
+Our approach is to create two identical devices that are connected to each other over the internet. A button and a motor are attached to the devices where a button click on the <b>1. device</b> is able to deliver a haptic sensation on the <b>2. device</b> and vice versa.
 
 ## Structure of this Git.
 This Git-repository will contain the relevant source code and resources necessary for you to make a device identical to what we have made. The code-pieces is structured in a way for you to see what have been done (i.e. added) in the iterations we have gone through. The source code for a respective iteration can be found in folders named in the following way "X. Iteration", where X describes which iteration is at play. A rule of thumb would be to use the source code found in the folder where the X is highest, at that code would be the prettiest.
