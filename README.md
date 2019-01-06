@@ -52,6 +52,13 @@ We have created a solution based on the Fritzing diagram below
 
 ### 4. Soldering on the button
 
-### 5. Putting it all together
+### 5. Creating the enclosure
+![](images/20181112_144646.jpg)
+For this exact iteration, we wanted to create an enclosure to strap to the body. For creating and mounting the device, we did the following steps:
 
- 
+- We used a lasercutter to cut the box, and then used a gluegun to put it together. The file for our enclosure, can be found in this repository.
+- Next, we put straps inside the enclosure, to make sure that we could wear the device.
+- For mounting the device itself, we screwed the top of the button off, put the device into the enclosure, and the disassempled button through the small hole seen in the picture of the enclosure. 
+
+### 6. Putting it all together
+
