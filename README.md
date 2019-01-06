@@ -30,7 +30,7 @@ Additionally you will be able to find the .SVG-file for lasercutting the case fo
 
 ### 1. Preparing the necessary parts and pieces
 #### Parts:
-* WEMOS D1 Mini (https://wiki.wemos.cc/products:d1:d1_mini) or similar ESP8266 microcontroller 
+* WEMOS D1 Mini (https://wiki.wemos.cc/products:d1:d1_mini) or similar ESP8266 microcontroller (we used one with a built-in rechargable battery)
 * Motor Shield (https://wiki.wemos.cc/products:d1_mini_shields:motor_shield) 
 * Button
 * Motor of your choice (our favourite is the vibration motor)
@@ -47,11 +47,11 @@ We have created a solution based on the Fritzing diagram below
 
 
 ### 2. Soldering the pins and connecting the motor shield
-
+Everything should be soldered according to the Fritzing-diagram above. To make our device durable, we further secured the connections with glue-gun-glue. Make sure you test all of your connections before doing anything like that. 
 ### 3. Soldering on the vibration motor
-
+Instead of soldering on the motor directly to the motor-shield, we soldered on two proto cables with a female end. This allowed us to test out different motors (soldering proto cables with male ends on the motor). If you only have one motor, this won't matter.  
 ### 4. Soldering on the button
-
+We are using the INPUT_PULLUP pinMode, that uses the internal resistor in the WEMOS/Arduino-board. Therefor a resistor is not necessary. 
 ### 5. Creating the enclosure
 ![](images/20181112_144646.jpg)
 For this exact iteration, we wanted to create an enclosure to strap to the body. For creating and mounting the device, we did the following steps:
