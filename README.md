@@ -34,7 +34,9 @@ http://fablab.ruc.dk/wemos-intro/
 Besides this you should make feeds on a account on io.adafruit.com. There needs to be 3 feeds. A feed to each of the devices and one to ping the devices. If you dont make continously pings the devices will "fall asleep" in lack of a better word. We named the feeds:
 
 Default heartbeat
+
 Person-1 buttonPublisher
+
 Person-2 buttonPublisher
 
 You make these feeds on the io.adafruit.com site by logging in on your user and the click on feeds.
