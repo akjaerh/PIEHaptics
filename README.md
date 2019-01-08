@@ -26,6 +26,21 @@ Additionally you will be able to find the .SVG-file for lasercutting the case fo
 
 ![1. experiment: Good vibrations multiband](images/good%20vibrations%20multi%20band.jpg)
 
+## Before your assemble the device you should upload the code to the Wemos board 
+
+If you dont have installed the Wemos you can follow the beginning of this guide:
+http://fablab.ruc.dk/wemos-intro/
+
+Besides this you should make feeds on a account on io.adafruit.com. There needs to be 3 feeds. A feed to each of the devices and one to ping the devices. If you dont make continously pings the devices will "fall asleep" in lack of a better word. We named the feeds:
+
+Default heartbeat
+Person-1 buttonPublisher
+Person-2 buttonPublisher
+
+You make these feeds on the io.adafruit.com site by logging in on your user and the click on feeds.
+When on the feeds site you can choose actions->Create a new feed. 
+We grouped our feeds so heartbeat is in the default group. Person-1 and Person-2 is new groups with their own buttonPublisher feed. 
+
 ## How to create an internet enabled haptic sensoric sender and receiver
 
 ### 1. Preparing the necessary parts and pieces
@@ -61,4 +76,5 @@ For this exact iteration, we wanted to create an enclosure to strap to the body.
 - For mounting the device itself, we screwed the top of the button off, put the device into the enclosure, and the disassempled button through the small hole seen in the picture of the enclosure. 
 
 ### 6. Putting it all together
+
 
