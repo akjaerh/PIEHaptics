@@ -162,14 +162,13 @@ void loop() {
   button.currentState = !digitalRead(button.pin);
   //Serial.println(button.currentState);
 
+  //Gets the time for the button press
   if (button.previousState == 1 && button.currentState == 0)
   {
     timeWhenPressed = millis()/1000;
-
-    //buttonPublish.publish("1");
-    //Serial.println("Button pushed");
-
   }
+  
+  //Gets the time for the button release and publishes the difference aka. the timeframe the button is pressed down
   if (button.previousState == 0 && button.currentState == 1)
   {
     timeWhenReleased = millis()/1000;
@@ -185,16 +184,10 @@ void loop() {
 
     Serial.println("In the while");
     yield();
-    //
-    if (subscription == &valueStream) {
-
-      // convert mqtt ascii payload to int
-      int value = atoi((char *)valueStream.lastread);
-      pwm = value;
-      Serial.print(F("Received: "));
-      Serial.println(value);
-    }
-
+    
+    
+    //this subscribes to the other button and records the time for subscribtion and how long the other button was presssed
+    //it also turns on the motor
     if (subscription == &buttonSubscribe) {
       pwm = 20;
 
@@ -206,9 +199,20 @@ void loop() {
       otherButtonTime = value*1000; //receives the seconds the other button has been pushed
       Serial.print(F("Received wemos two button click...: "));
     }
+    
+    //if the valueStream is changed by a slider in io.adafruit.com the vibrator will vibrate
+    if (subscription == &valueStream) {
+
+      // convert mqtt ascii payload to int
+      int value = atoi((char *)valueStream.lastread);
+      pwm = value;
+      Serial.print(F("Received: "));
+      Serial.println(value);
+    }
 
   }
-  // THIS SNIPPIT TAKES CARE OF SETTING THE PWR BACK TO 0 WHEN TWO SECONDS HAVE PASSED, AFTER THE BUTTON-CLICK OF OTHER WEMOS HAVE BEEN REGISTERED.
+  // THIS SNIPPIT TAKES CARE OF SETTING THE PWR BACK TO 0 WHEN THE otherButtonTime HAS PASSED
+ 
   if (millis() - timeWhenSubscribed > otherButtonTime && timerActive == true)
   {
     // do something two seconds later
