@@ -14,7 +14,7 @@ Below is a brief explanation of the code in each respective iteration:
 Source code for using the MQTT-protocol, where the ADAFruit.io was used for a graphical control interface as well as a MQTT-broker.
 
 ### 2. Iteration
-The primary focus in the 2. Iteration was to enable the devices to <b>subscribe</b> to each others <b>publish</b> feeds. When one of the devices would register a change i the other device's publisher feed, code would be executed, that would power on the vibration motor for a fixed amount of time.
+The primary focus in the 2. Iteration was to enable the devices to <b>subscribe</b> to each others <b>publish</b> feeds. When one of the devices would register a change in the other device's publisher feed, code would be executed, that would power on the vibration motor for a fixed amount of time.
 
 ### 3. Iteration
 In this iteration we wanted to make the haptic sensations more dynamic. We did this by shifting from the approach using a fixed value of active motor time, to an approach where the length a button press on the <b>1. device</b> would determine the length of the motor time on the <b>2. device</b>.
