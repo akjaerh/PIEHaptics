@@ -17,7 +17,7 @@ Source code for using the MQTT-protocol, where the ADAFruit.io was used for a gr
 This iteration primarily focused on subscribing to a MQTT-feed, and when change was is detected courses specific code to be executed. The code executed is activating a vibration motor for a fixed amount of time.
 
 ### 3. Iteration
-In this iteration we wanted to make the haptic sensations more dynamic. We did this by shifting from the approach using a fixed value of active motor time, to an approach where the lenght a button press on the <b>1. device</b> would determine the length the motor time on the <b>2. device</b>.
+In this iteration we wanted to make the haptic sensations more dynamic. We did this by shifting from the approach using a fixed value of active motor time, to an approach where the length a button press on the <b>1. device</b> would determine the length of the motor time on the <b>2. device</b>.
 This code is programmed for device 1. Remember to change the variables for 'id' and 'idOther' for the 2. device.
 Remember also to type in your own Wifi name and password.
 The code is made for a device which uses motor B. If you use motor A or both, then remember to uncomment them in the code.
@@ -31,7 +31,7 @@ Additionally you will be able to find the .SVG-file for lasercutting the case fo
 If you dont have installed the Wemos you can follow the beginning of this guide:
 http://fablab.ruc.dk/wemos-intro/
 
-Besides this you should make feeds on a account on io.adafruit.com. There needs to be 3 feeds. A feed to each of the devices and one to ping the devices. If you dont make continously pings the devices will "fall asleep" in lack of a better word. We named the feeds:
+Besides this, you should make feeds on an account on io.adafruit.com. There need to be 3 feeds. A feed to each of the devices and one to ping the devices. If you dont make continously pings the devices will "fall asleep" in lack of a better word. We named the feeds:
 
 Default heartbeat
 
@@ -39,7 +39,7 @@ Person-1 buttonPublisher
 
 Person-2 buttonPublisher
 
-You make these feeds on the io.adafruit.com site by logging in on your user and the click on feeds.
+You make these feeds on the io.adafruit.com site by logging in on your user and then click on feeds.
 When on the feeds site you can choose actions->Create a new feed. 
 We grouped our feeds so heartbeat is in the default group. Person-1 and Person-2 is new groups with their own buttonPublisher feed. 
 
@@ -64,7 +64,7 @@ We have created a solution based on the Fritzing diagram below
 
 
 ### 2. Soldering the pins and connecting the motor shield
-Everything should be soldered according to the Fritzing-diagram above. To make our device durable, we further secured the connections with glue-gun-glue. Make sure you test all of your connections before doing anything like that. 
+Everything should be soldered according to the Fritzing-diagram above. To make our device durable, we further secured the connections with glue-gun glue. Make sure you test all of your connections before doing anything like that. 
 ### 3. Soldering on the vibration motor
 Instead of soldering on the motor directly to the motor-shield, we soldered on two proto cables with a female end. This allowed us to test out different motors (soldering proto cables with male ends on the motor). If you only have one motor, this won't matter.  
 ### 4. Soldering on the button
@@ -75,7 +75,7 @@ For this exact iteration, we wanted to create an enclosure to strap to the body.
 
 - We used a lasercutter to cut the box, and then used a gluegun to put it together. The file for our enclosure, can be found in this repository.
 - Next, we put straps inside the enclosure, to make sure that we could wear the device.
-- For mounting the device itself, we screwed the top of the button off, put the device into the enclosure, and the disassempled button through the small hole seen in the picture of the enclosure. 
+- For mounting the device itself, we screwed the top of the button off, put the device into the enclosure, and put the disassempled button through the small hole seen in the picture of the enclosure. 
 
 ### 6. Putting it all together
 
