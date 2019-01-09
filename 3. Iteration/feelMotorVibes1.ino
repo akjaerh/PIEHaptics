@@ -215,7 +215,7 @@ void loop() {
  
   if (millis() - timeWhenSubscribed > otherButtonTime && timerActive == true)
   {
-    // do something two seconds later
+    // set timerActive to false and power for the motor to 0
     timerActive = false;
     pwm = 0;
 
