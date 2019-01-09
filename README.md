@@ -28,7 +28,7 @@ Additionally you will be able to find the .SVG-file for lasercutting the case fo
 
 ## Before your assemble the device you should upload the code to the Wemos board 
 
-If you dont have installed the Wemos you can follow the beginning of this guide:
+If you don't have the Wemos installed, you can follow the beginning of this guide:
 http://fablab.ruc.dk/wemos-intro/
 
 Besides this, you should make feeds on an account on io.adafruit.com. There needs to be 3 feeds. A feed for each of the devices and one to ping the devices. If you dont make continous pings, the devices will "fall asleep" in lack of a better word. We named the feeds:
