@@ -76,7 +76,7 @@ For this exact iteration, we wanted to create an enclosure to strap to the body.
 - We used a lasercutter to cut the box, and then used a gluegun to put it together. The file for our enclosure, can be found in this repository. It is made for 3 mm hardboard/HDF. 
 - Next, we put straps inside the enclosure, to make sure that we could wear the device.
 - For mounting the device itself, we screwed the top of the button off, put the device into the enclosure, and put the disassempled button through the small hole seen in the picture of the enclosure. 
-- If you're using a 'normal' wemos and attaching an external battery of some sort, you will most likely need to alter the case. We would still recomming being able to strap it to your body, as a way to secure it in one place.
+- If you're using a 'normal' wemos and attaching an external battery of some sort, you will most likely need to alter the case. We would still recommend being able to strap it to your body, as a way to secure it in one place.
 
 ### 6. Putting it all together
 The box is made for a wemos-board with a built-in rechargable battery. The board should be put in place, so that the square hole in the front of the box, line up with the micro-usb port on the board. This allows for recharging and/or editing the code. The button should be mounted in the circular hole. fit the rest of the board and the motorshield inside the box, pull a strap through the holes in the sides (either horizontal or vertical), and pull the vibration motor out, so that it is outside the strap in the big hole on the backside of the box. When strapping the device to your body, the strap should push the motor into your body. 
