@@ -31,7 +31,7 @@ Additionally you will be able to find the .SVG-file for lasercutting the case fo
 If you dont have installed the Wemos you can follow the beginning of this guide:
 http://fablab.ruc.dk/wemos-intro/
 
-Besides this, you should make feeds on an account on io.adafruit.com. There need to be 3 feeds. A feed to each of the devices and one to ping the devices. If you dont make continously pings the devices will "fall asleep" in lack of a better word. We named the feeds:
+Besides this, you should make feeds on an account on io.adafruit.com. There needs to be 3 feeds. A feed for each of the devices and one to ping the devices. If you dont make continous pings, the devices will "fall asleep" in lack of a better word. We named the feeds:
 
 Default heartbeat
 
@@ -39,7 +39,7 @@ Person-1 buttonPublisher
 
 Person-2 buttonPublisher
 
-You make these feeds on the io.adafruit.com site by logging in on your user and then click on feeds.
+You make these feeds on the io.adafruit.com site by logging in on your user and then clicking on feeds.
 When on the feeds site you can choose actions->Create a new feed. 
 We grouped our feeds so heartbeat is in the default group. Person-1 and Person-2 is new groups with their own buttonPublisher feed. 
 
@@ -73,10 +73,12 @@ We are using the INPUT_PULLUP pinMode, that uses the internal resistor in the WE
 ![](images/20181112_144646.jpg)
 For this exact iteration, we wanted to create an enclosure to strap to the body. For creating and mounting the device, we did the following steps:
 
-- We used a lasercutter to cut the box, and then used a gluegun to put it together. The file for our enclosure, can be found in this repository.
+- We used a lasercutter to cut the box, and then used a gluegun to put it together. The file for our enclosure, can be found in this repository. It is made for 3 mm hardboard/HDF. 
 - Next, we put straps inside the enclosure, to make sure that we could wear the device.
 - For mounting the device itself, we screwed the top of the button off, put the device into the enclosure, and put the disassempled button through the small hole seen in the picture of the enclosure. 
+- If you're using a 'normal' wemos and attaching an external battery of some sort, you will most likely need to alter the case. We would still recomming being able to strap it to your body, as a way to secure it in one place.
 
 ### 6. Putting it all together
-
+The box is made for a wemos-board with a built-in rechargable battery. The board should be put in place, so that the square hole in the front of the box, line up with the micro-usb port on the board. This allows for recharging and/or editing the code. The button should be mounted in the circular hole. fit the rest of the board and the motorshield inside the box, pull a strap through the holes in the sides (either horizontal or vertical), and pull the vibration motor out, so that it is outside the strap in the big hole on the backside of the box. When strapping the device to your body, the strap should push the motor into your body. 
+Repeat with the other device, and you're ready to vibrate! 
 
