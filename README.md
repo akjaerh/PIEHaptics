@@ -1,7 +1,7 @@
 # PIEHaptics
 
 Vision:
-We want to explore what it does to relations over a distance, when it becomes possible, and easily available, to induce physical sensations remotely.
+We want to explore what it does to relations over a distance, when it becomes possible and easily available, to induce physical sensations remotely.
 
 Our approach is to create two identical devices that are connected to each other over the internet. A button and a motor are attached to the devices where a button click on the <b>1. device</b> is able to deliver a haptic sensation on the <b>2. device</b> and vice versa.
 
